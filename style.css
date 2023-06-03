@@ -1,0 +1,1279 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Jockey+One&family=Josefin+Sans:wght@600&family=Roboto&family=Sofia&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------common css start---- */
+/* ----special font */
+.sofia {
+    font-family: 'Sofia';
+    color: #FA8507;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.Josef {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.Inter {
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+}
+
+.footer-font {
+    color: #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* -----special font end----- */
+
+.see-menu-btn {
+    background-color: #FA8507;
+    width: 170px;
+    height: 56px;
+    margin-top: -12px;
+    margin-left: 12px;
+    position: absolute;
+}
+
+.hr {
+    background: #FA8507;
+    width: 170px;
+    color: #FA8507;
+    height: 2px;
+    margin-top: 41px;
+
+}
+
+.btn {
+    margin-top: 10px;
+
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* ------common css end------- */
+
+/* -----------header css start --------*/
+
+/* ------top header start ------ */
+.top-header {
+    background-color: #FA8507;
+    height: 40px;
+    color: #FFF8EF;
+}
+
+.time-area,
+.location-area {
+    display: flex;
+    justify-content: center;
+}
+
+.clock-icon {
+    width: 14px;
+    height: 14px;
+    margin-top: 13px;
+}
+
+.clock-time {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.location-icon {
+    width: 12.03px;
+    height: 16px;
+    margin-top: 12px;
+}
+
+.location-delails {
+    margin-top: 9px;
+    margin-left: 15px;
+}
+
+
+/* -------top header end----- */
+.main-header {
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.menu-bar {
+    width: 32px;
+    height: 21.33px;
+    margin-top: 39px;
+    margin-bottom: 39.67px;
+    margin-left: 60px;
+}
+
+.logo {
+    width: 151px;
+    height: 77px;
+    margin-top: 8px;
+    margin-left: 287px;
+}
+
+.menu {
+    display: flex;
+    height: 16px;
+    margin-top: 42px;
+    margin-left: 92px;
+    margin-bottom: 42px;
+    font-family: 'Josefin Sans';
+
+}
+
+.menu-content {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 111px;
+}
+
+.menu-content:hover {
+    color: #FA8507;
+    border-top: 1px solid #FA8507;
+    border-bottom: 1px solid #FA8507;
+}
+
+/* ------- */
+
+
+/* ------- */
+
+.cart-icon,
+.call-icon {
+    width: 50px;
+    height: 50px;
+    margin-top: 27px;
+    margin-bottom: 23px;
+    border: 1px solid #DDDDDD;
+    border-radius: 50%;
+}
+
+.cart-icon {
+    margin-left: 96px;
+}
+
+call-icon {
+    margin-left: 118px;
+}
+
+.cart-icon img,
+.call-icon img {
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+}
+
+.call-icon {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 118px;
+}
+
+.contact {
+    max-width: 135px;
+    margin-top: 29px;
+    margin-left: 16px;
+}
+
+.call-now {
+    color: #9A9A9A;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+}
+
+.contact-number {
+    color: #424242;
+    margin-top: -6px;
+
+}
+
+
+
+/* ------header css end------ */
+
+
+/* <!-- --------welcome css start---------- --> */
+.welcome-section {
+    width: 100%;
+    height: 850px;
+    background-image: url("./img/bg-hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}
+
+.welcome-section>.inner-section {
+    max-width: 600px;
+    margin-top: 220px;
+    margin-left: 375px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+/* -----welcome section end------------*/
+
+/* ----------about section css start---------- */
+.about-area {
+    height: 920px;
+    background-color: #F7F1E8;
+    margin-bottom: -4%;
+}
+
+.about-section {
+    justify-content: center;
+    margin-top: 90px;
+    margin-top: 98px;
+    margin-left: 375px;
+}
+
+.about-img {
+    width: 557px;
+    margin-bottom: 98px;
+}
+
+.img-one {
+    width: 400px;
+    height: 536px;
+    margin-top: 90px;
+
+}
+
+.img-two {
+    width: 300px;
+    height: 480px;
+    margin-top: -390px;
+    margin-left: 237px;
+    border-top: 8px solid white;
+    border-left: 8px solid white;
+}
+
+.about-work {
+    max-width: 570px;
+    margin-left: 55px;
+}
+
+.about-work-heading {
+    margin-top: 17px;
+}
+
+.about-description {
+    margin-top: 23px;
+}
+
+.about-heading-two {
+    margin-top: 38px;
+}
+
+.about-list {
+    margin-top: 22px;
+    list-style-image: url('./img/list-icon.png');
+}
+
+ul li {
+    font-size: 18px;
+    margin-top: 19px;
+}
+
+.about-hr {
+    background: #FA8507;
+    width: 170px;
+    height: 1px;
+    margin-left: 55px;
+    margin-top: 45px;
+    color: #FA8507;
+}
+
+.about-btn {
+    background-color: #FA8507;
+    width: 170px;
+    height: 56px;
+    margin-left: 68px;
+    margin-top: -12px;
+
+}
+
+/* ----populer dishes css start----- */
+.dishes-area {
+    background-image: url("./img/bg-dishes.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 98px;
+}
+
+.offer-heading {
+    color: #FA8507;
+    font-family: 'Sofia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.dishes-heading {
+    color: #373737;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    margin-top: 17px;
+}
+
+.dishes-items {
+    justify-content: center;
+}
+
+.populer-dishes-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 158px;
+    margin-left: 30px;
+}
+
+.populer-dishes-card {
+    width: 270px;
+    height: 424px;
+    background-image: url("./img/bg-card.png");
+    margin-left: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+populer-dishes-card:first-child {
+    margin-left: 0px;
+}
+
+.card-img-top {
+    height: 270px;
+}
+
+.dishes-card-heading {
+    margin-top: 18px;
+}
+
+.star-icon {
+    margin-top: 15px;
+}
+
+.rate {
+    margin-top: 16px;
+}
+
+/* ----tesimonial css start----- */
+.testimonial-area {
+    background: #F7F1E8;
+    height: 750px;
+
+}
+
+.Testimonial-heading {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.Testimonial-client {
+    text-align: center;
+    margin-top: 17px;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 68px;
+}
+
+.testimonial-card {
+    width: 370px;
+    height: 260px;
+    margin-left: 53px;
+}
+
+.testimonial-last-card {
+    width: 370px;
+    height: 260px;
+    margin-left: 53px;
+}
+
+
+.card-img {
+    margin-left: 35%;
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+}
+
+
+
+.cottetion {
+    width: 42px;
+    height: 42px;
+    background-color: #FFB200;
+    border-radius: 50%;
+    margin-left: 90%;
+    margin-top: -80%;
+    z-index: 10;
+}
+
+.cottetion img {
+    width: 7.77px;
+    height: 16px;
+    margin-top: 12px;
+    margin-left: 13px;
+}
+
+.cottetion img:last-child {
+    margin-left: 3.23px;
+}
+
+.client-description {
+    margin-top: 31px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+}
+
+.client-name {
+    color: #B02A30;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.client-job {
+    color: #424242;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+}
+
+.testimonial-card-body-two {
+    background-color: #FFFFFF;
+    width: 370px;
+    height: 260px;
+    border-radius: 10%;
+}
+
+
+
+.aplication-heading {
+    margin-top: 90px;
+    color: #FA8507;
+    font-family: 'Sofia';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+}
+
+.gallery-heading {
+    margin-top: 17px;
+    color: #373737;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: center;
+}
+
+.food-gallery {
+    display: flex;
+    width: 1180px;
+    height: 611px;
+    margin-top: 74px;
+    margin-left: 750px;
+    justify-content: center;
+
+}
+
+.gallery-items {
+    margin-left: 23px;
+}
+
+.img-1 {
+    width: 375px;
+    height: 358px;
+    margin-bottom: 23px;
+}
+
+.img-3 {
+    width: 375px;
+    height: 230px;
+    margin-bottom: 23px;
+}
+
+.gallery-hr {
+    background: #FA8507;
+    width: 170px;
+    height: 2px;
+    margin-left: 48%;
+    margin-top: 60px;
+    color: #FA8507;
+}
+
+.blog-hr {
+    background: #FA8507;
+    width: 170px;
+    height: 2px;
+    margin-left: 48%;
+    margin-top: 60px;
+    color: #FA8507;
+}
+
+.blog-button {
+    background-color: #FA8507;
+    width: 170px;
+    height: 56px;
+    margin-top: -12px;
+    margin-left: 48%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.gallery-button {
+    background-color: #FA8507;
+    width: 170px;
+    height: 56px;
+    margin-top: -12px;
+    margin-left: 48%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+/* -------gallery css end----- */
+/* --------news blog css start----*/
+.blog-area {
+    width: 100%;
+    background-image: url("./img/bg-news-blog.png");
+    background-size: cover;
+    margin-top: 89px;
+    padding-bottom: 2%;
+}
+
+.blog-heading {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.blog-news {
+    margin-top: 17px;
+    text-align: center;
+}
+
+.blog-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.blog-card {
+    width: 370px;
+    height: 480px;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.blog-card-body {
+    background: #FFFFFF;
+    height: 240px;
+}
+
+.card-social {
+    display: flex;
+    margin-left: 22px;
+    text-align: right;
+}
+
+.card-social-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 16px;
+}
+
+.card-social-description {
+    margin-top: 14px;
+    margin-left: 13.5px;
+}
+
+.read-more {
+    color: #424242;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.read-more:hover {
+    color: #FA8507;
+}
+
+.card-details {
+    margin-left: 20px;
+}
+
+.gallery-hr {
+    background: #FA8507;
+    width: 170px;
+    height: 2px;
+    margin-left: 48%;
+    margin-top: 60px;
+    color: #FA8507;
+}
+
+.gallery-button {
+    justify-content: center;
+    background-color: #FA8507;
+    width: 171px;
+    height: 56px;
+    margin-top: -12px;
+    margin-left: 48%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* ------footer cs start */
+
+.footer-area {
+    background: #FF9624;
+    color: #FFFFFF;
+
+}
+
+.footer {
+    display: flex;
+    margin-left: 12%;
+}
+
+.main-footer {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 29px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-logo {
+    width: 151px;
+    height: 77px;
+}
+
+.footer-logo-details {
+    margin-top: 79px;
+    margin-bottom: 69px;
+    margin-left: 376px;
+    color: white;
+}
+
+.logo-details {
+    max-width: 270px;
+    margin-top: 34px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    border: 1px solid white;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.menu-list {
+    margin-top: 28px;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.opening-hour {
+    margin-left: 143px;
+}
+
+.contact {
+    margin-left: 87px;
+    max-width: 260px;
+}
+
+.contact-us {
+    margin-top: 31px;
+}
+
+.contact-list {
+    display: flex;
+    margin-bottom: 33px;
+}
+
+.contact-list p {
+    margin-left: 20px;
+}
+
+.link-area {}
+
+.footer-menu {
+    margin-top: 28px;
+}
+
+.opening-menu {
+    margin-left: 29px;
+    margin-bottom: 24px;
+}
+
+
+
+/* --------Responsive-------------- */
+
+
+/* Medium devices (landscape tablets, 820px and up) */
+@media only screen and (max-width: 768px) {
+
+    .top-header {
+        display: flex;
+        margin-left: -3%;
+        padding-top: 2%;
+        background-color: #FA8507;
+        height: 100px;
+        color: #FFF8EF;
+    }
+
+    .time-area,
+    .location-area {
+        width: 100%;
+        margin-left: 50%;
+    }
+
+
+
+.clock-time {
+    margin-top: 15px;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.clock-icon {
+    margin-top: 12px;
+}
+
+.main-header {
+    display: grid;
+    grid-template-areas:
+        'cart-icon';
+}
+
+.menu-bar {
+    width: 32px;
+    height: 21.33px;
+    margin-top: 56px;
+    margin-bottom: 39.67px;
+    margin-left: 40px;
+    padding: 5%;
+}
+
+.logo {
+    /* height: 60px; */
+    margin-top: -16%;
+    margin-left: 60%;
+}
+
+.menu {
+    margin-left: 2%;
+}
+
+.menu-content {
+    margin-left: 56px;
+
+}
+
+.cart-icon {
+    margin-left: 30%;
+}
+
+.call-icon {
+    margin-top: -74px;
+    margin-bottom: 20px;
+    margin-left: 60%;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30%;
+    max-width: 280px;
+}
+
+/* .welcome-section {
+        margin-left: 10%;
+    } */
+
+.welcome-section>.inner-section {
+    max-width: 450px;
+    margin-top: 220px;
+    margin-left: 5%;
+    color: #FFFFFF;
+}
+
+.about-img {
+    margin-left: -7%;
+    width: 557px;
+    margin-bottom: 90px;
+}
+
+.about-area {
+    height: 126vh;
+}
+
+.about-section {
+    justify-content: center;
+    margin-top: 90px;
+    margin-top: 98px;
+    margin-left: -25%;
+}
+
+.img-one {
+    width: 245px;
+    height: 410px;
+    margin-top: -20px;
+    margin-left: 15%;
+}
+
+.img-two {
+    width: 245px;
+    height: 430px;
+    margin-top: -330px;
+    margin-left: 45%;
+    border-top: 8px solid white;
+    border-left: 8px solid white;
+}
+
+.about-work {
+    max-width: 452px;
+    margin-left: -6%;
+}
+
+.about-area {
+    height: 140vh;
+    margin-bottom: -15%;
+}
+
+.populer-dishes-cards {
+    margin-left: -8%;
+}
+
+.populer-dishes-cards,
+.testimonial-card,
+.blog-cards {
+    display: block;
+}
+
+.dishes-heading {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.populer-dishes-card {
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 28%;
+}
+
+.Testimonial-heading {
+    margin-top: 45px;
+    margin-left: 5%;
+}
+
+.testimonial-area {
+    margin-left: -12%;
+    height: 135vh;
+}
+
+.testimonial-cards {
+    margin-left: 28%;
+    display: block;
+    justify-content: center;
+    margin-top: 68px;
+}
+
+.offer-heading,
+.dishes-heading,
+.aplication-heading,
+.gallery-heading,
+
+
+
+.Testimonial-heading,
+.Testimonial-client {
+    margin-left: -8%;
+    ;
+}
+
+.testimonial-card {
+    margin-top: 10%;
+}
+
+.testimonial-last-card {
+    margin-top: 20%;
+}
+
+.gallery-area {
+    margin-left: 15%;
+}
+
+.food-gallery {
+    display: block;
+    margin-top: 0%;
+    margin-left: 5%;
+}
+
+
+.gallery-items {
+    margin-left: 23px;
+    margin-top: 5%;
+}
+
+.blog-area {
+    margin-top: 5%;
+}
+
+.gallery-button {
+    margin-top: -1%;
+}
+
+.gallery-hr {
+    margin-top: 190%;
+}
+.blog-heading ,.blog-news{
+    margin-left: -4%;
+}
+.blog-cards {
+    margin-left: 10%;
+    display: block;
+}
+
+.blog-card {
+    margin-left: 15%;
+}
+
+.blog-hr {
+    background: rgb(250, 133, 7);
+    width: 170px;
+    height: 2px;
+    margin-left: 37%;
+    margin-top: 29px;
+    color: rgb(250, 133, 7);
+}
+
+
+.gallery-button,
+.gallery-hr {
+    margin-left: 38%;
+}
+.footer {
+display: block;
+}
+.footer-logo-details {
+    margin-left: 25%;
+}
+.link-area {
+    margin-left: 25%;
+}
+.opening-hour, .opening-hour {
+    margin-top: 5%;
+    margin-left: 22%;
+}
+   
+.main-footer {
+  display: block;
+}
+
+
+
+
+
+/* Extra small devices (phones, px and down) */
+@media only screen and (max-width: 600px) {
+    
+    .top-header {
+     width: 145%;
+    }
+
+    .time-area,
+    .location-area {
+        width: 100%;
+        margin-left: 50%;
+    }
+
+
+
+.clock-time {
+    margin-top: 15px;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.clock-icon {
+    margin-top: 12px;
+}
+
+.main-header {
+    display: grid;
+    grid-template-areas:
+        'cart-icon';
+}
+
+.menu-bar {
+  margin-left: 30%;
+}
+
+.logo {
+ margin-left: 95%;
+}
+
+.menu {
+    margin-left: 23%;
+}
+
+.menu-content {
+    margin-left: 60px;
+
+}
+
+.cart-icon {
+    margin-left: 50%;
+}
+
+.call-icon {
+   margin-left: 95;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30%;
+    max-width: 280px;
+}
+
+/* .welcome-section {
+        margin-left: 10%;
+    } */
+
+.welcome-section>.inner-section {
+    margin-left: 45%;
+}
+
+.about-img {
+    margin-left: 24%;
+}
+
+.about-area {
+    height: 525vh;
+}
+.about-work{
+    margin-left: 30%;
+}
+.about-section {
+    justify-content: center;
+    margin-top: 90px;
+    margin-top: 98px;
+    margin-left: -25%;
+}
+
+.img-one {
+    width: 245px;
+    height: 410px;
+    margin-top: -20px;
+    margin-left: 15%;
+}
+
+.img-two {
+    width: 245px;
+    height: 430px;
+    margin-top: -330px;
+    margin-left: 45%;
+    border-top: 8px solid white;
+    border-left: 8px solid white;
+}
+
+.about-work {
+    max-width: 452px;
+    margin-left: -6%;
+}
+
+.about-area {
+    height: 520vh;
+    
+}
+
+.populer-dishes-cards {
+    margin-left: -8%;
+}
+
+.populer-dishes-cards,
+.testimonial-card,
+.blog-cards {
+    display: block;
+}
+
+.dishes-heading {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.populer-dishes-card {
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 28%;
+}
+
+.Testimonial-heading {
+    margin-top: 45px;
+    margin-left: 5%;
+}
+
+.testimonial-area {
+  
+    height: 455vh;
+}
+
+.testimonial-cards {
+    margin-left: 28%;
+    display: block;
+    justify-content: center;
+    margin-top: 68px;
+}
+
+.offer-heading,
+.dishes-heading,
+.aplication-heading,
+.gallery-heading,
+
+
+
+.Testimonial-heading,
+.Testimonial-client {
+    margin-left: -8%;
+    ;
+}
+
+.testimonial-card {
+    margin-top: 10%;
+}
+
+.testimonial-last-card {
+    margin-top: 20%;
+}
+
+.gallery-area {
+    margin-left: 15%;
+}
+
+.food-gallery {
+    display: block;
+    margin-top: 0%;
+    margin-left: 5%;
+}
+
+
+.gallery-items {
+    margin-left: 23px;
+    margin-top: 5%;
+}
+
+.blog-area {
+    margin-top: 5%;
+}
+
+.gallery-button {
+    margin-top: -1%;
+}
+
+.gallery-hr {
+    margin-top: 190%;
+}
+.blog-heading ,.blog-news{
+    margin-left: -4%;
+}
+.blog-cards {
+    margin-left: 10%;
+    display: block;
+}
+
+.blog-card {
+    margin-left: 15%;
+}
+
+.blog-hr {
+    background: rgb(250, 133, 7);
+    width: 170px;
+    height: 2px;
+    margin-left: 37%;
+    margin-top: 29px;
+    color: rgb(250, 133, 7);
+}
+
+
+.gallery-button,
+.gallery-hr {
+    margin-left: 38%;
+}
+.footer {
+display: block;
+}
+.footer-logo-details {
+    margin-left: 25%;
+}
+.link-area {
+    margin-left: 25%;
+}
+.opening-hour, .opening-hour {
+    margin-top: 5%;
+    margin-left: 22%;
+}
+   
+.main-footer {
+  display: block;
+}
+
+}
